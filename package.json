@@ -1,0 +1,21 @@
+{
+  "name": "angular-cleave",
+  "version": "0.1.0",
+  "description": "Angular2 Directive for Cleave.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Tarchichi <kartsims@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartsims/angular-cleave.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cleave.js": "^0.7.14"
+  },
+  "peerDependencies": {
+    "@angular/core": "2.x"
+  }
+}
