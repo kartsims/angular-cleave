@@ -7,7 +7,13 @@ Simple directive to use the excellent [Cleave.js library](https://github.com/nos
 Import the directive in your application's module
 
 ```
-import { CleaveDirective } from 'angular2-cleave'
+npm i -S angular-cleave
+```
+
+Import the directive in your application's module
+
+```
+import { CleaveDirective } from 'angular-cleave'
 @NgModule({
   ...
   declarations: [
@@ -59,4 +65,6 @@ Available options :
 
 For the full list of options, check [Cleave.js documentation](https://github.com/nosir/cleave.js/blob/master/doc/options.md).
 
-If you need to support Phone lib add-ons, throw in an issue. Even better if you know how to had support for these add-ons, submit a PR 😎
+If you need to support **Phone lib add-ons**, throw in an issue. Even better if you know how to had support for these add-ons, submit a PR 😎
+
+Any other feature request, or if the lib doesn't work on your setup please file an issue.
