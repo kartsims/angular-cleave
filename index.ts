@@ -55,6 +55,10 @@ export class CleaveDirective {
 
   // instanciate Cleave.js
   private initCleave(opts) {
+    if (this.cleaveInstance) {
+      this.cleaveInstance.destroy();
+    }
+    
     this.cleaveInstance = new Cleave(this.el.nativeElement, opts)
   }
 }
